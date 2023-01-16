@@ -19,25 +19,26 @@ List<ServicesUtils> servicesUtils = [
         "Are you interested in the great Mobile app? Let's make it a reality.",
     tool: ['Flutter', 'React Native', 'Android (Kotlin or Java)'],
   ),
-  ServicesUtils(
-    name: 'iOS App Development',
-    icon: 'assets/icons/apple.svg',
-    description:
-        "Are you interested in the great Mobile app? Let's make it a reality.",
-    tool: ['Flutter', 'React Native'],
-  ),
-  ServicesUtils(
-    name: 'UI/UX Designing',
-    icon: 'assets/icons/graphic.svg',
-    description:
-        "I'm creating elegant designs suited to your needs following core design theory. ",
-    tool: ['Adobe XD', 'Figma', 'Photoshop'],
-  ),
+
   ServicesUtils(
     name: 'Web Development',
-    icon: 'assets/icons/website.svg',
+    icon: 'assets/icons/apple.svg',
     description:
         "Do you have an idea for your next great website? Let's make it a reality.",
-    tool: ['Flutter', 'Html,css,js', 'Android (Kotlin or Java)'],
+    tool: ['Flutter', 'Html, css, js', 'Android (Kotlin or Java)', 'Jinja2', 'React js', 'Node js, Django'],
+  ),
+  ServicesUtils(
+    name: 'AI & ML',
+    icon: 'assets/icons/website.svg',
+    description:
+    "Are you interested in turning machine intelligent?",
+    tool: ['Deep Learning', 'Transfer Learning', 'Tensorflow'],
+  ),
+  ServicesUtils(
+    name: 'Data Analytics',
+    icon: 'assets/icons/graphic.svg',
+    description:
+    "Do you need your data to be analysed ? ",
+    tool: ['Google Colab', 'Google Charts', 'Jupyter Notebook'],
   ),
 ];
